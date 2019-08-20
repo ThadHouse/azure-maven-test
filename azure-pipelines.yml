@@ -29,6 +29,8 @@ stages:
           gradleOptions: '-Xmx3072m'
           publishJUnitResults: true
           testResultsFiles: '**/TEST-*.xml'
-          tasks: ':cameraserver:checkstyleDev'
+          tasks: 'build'
           # checkStyleRunAnalysis: true
           # pmdRunAnalysis: true
+
+
